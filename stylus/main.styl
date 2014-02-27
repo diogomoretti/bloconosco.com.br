@@ -1,0 +1,71 @@
+color-base = #e4e134
+
+
+// General
+*
+  box-sizing: border-box
+  transition: all .2s ease-in
+
+body
+  background: color-base
+  margin: 0
+  padding: 0
+  font-size: 62.5%
+  font-family: 'Arial', helvetica, sans-serif
+
+.title-hashtag
+  color: white
+  font-size: 7em
+  text-align: center
+  margin: 0 0 1em 0
+  letter-spacing: -0.06em
+
+.logo
+  background: url('../img/logo-bloconosco.svg') left top no-repeat
+  display: block
+  max-width: 28em
+  height: 18em
+  background-size: 100% auto
+  margin: 0 auto
+
+.instagram
+  width: 100%
+
+.instagram-placeholder
+  width: 20%
+  display: inline-block
+  opacity: .3
+  &:hover
+    opacity: 1
+
+.instagram-link
+  max-width: 100%
+  display: block
+
+.instagram-image
+  width: 100%
+  height: auto
+
+
+// Responsive
+// Devices/Breakpoints
+phone          = "only screen and (max-width: 500px)"
+tablet         = "only screen and (min-width: 501px) and (max-width: 960px)"
+
+@media medium-desktop
+  .instagram-placeholder
+    width: 32%
+
+@media tablet
+  .instagram-placeholder
+    width: 50%
+
+@media phone
+  .logo
+    height: 13em
+
+  .title-hashtag
+    font-size: 5em
+
+  .instagram-placeholder
+    width: 100%

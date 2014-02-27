@@ -1,0 +1,23 @@
+{
+  "name": "bloconosco",
+  "version": "1.0.0",
+  "description": "Venha conosco agitar o carnaval",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "carnaval",
+    "bloconosco",
+    "imarui",
+    "sc"
+  ],
+  "author": "Diogo Moretti",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "~3.5.2",
+    "gulp-stylus": "0.0.13",
+    "gulp-connect": "~1.0.5",
+    "gulp-plumber": "~0.5.6"
+  }
+}

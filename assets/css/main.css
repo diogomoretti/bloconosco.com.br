@@ -1,0 +1,15 @@
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-transition:all 0.2s ease-in;-moz-transition:all 0.2s ease-in;-o-transition:all 0.2s ease-in;-ms-transition:all 0.2s ease-in;transition:all 0.2s ease-in}
+body{background:#e4e134;margin:0;padding:0;font-size:62.5%;font-family:'Arial',helvetica,sans-serif}
+.title-hashtag{color:#fff;font-size:7em;text-align:center;margin:0 0 1em 0;letter-spacing:-.06em}
+.logo{background:url("../img/logo-bloconosco.svg") left top no-repeat;display:block;max-width:28em;height:18em;-webkit-background-size:100% auto;-moz-background-size:100% auto;background-size:100% auto;margin:0 auto}
+.instagram{width:100%}
+.instagram-placeholder{width:20%;display:inline-block;opacity:.3;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";filter:alpha(opacity=30);}
+.instagram-placeholder:hover{opacity:1;-ms-filter:none;filter:none}
+.instagram-link{max-width:100%;display:block}
+.instagram-image{width:100%;height:auto}
+@media medium-desktop{.instagram-placeholder{width:32%}
+}@media only screen and (min-width: 501px) and (max-width: 960px){.instagram-placeholder{width:50%}
+}@media only screen and (max-width: 500px){.logo{height:13em}
+.title-hashtag{font-size:5em}
+.instagram-placeholder{width:100%}
+}
