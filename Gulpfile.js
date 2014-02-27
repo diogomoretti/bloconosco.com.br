@@ -8,7 +8,7 @@ var plumber    = require('gulp-plumber');
 var paths = {
     html  : '*.html',
     css   : 'stylus/**/*',
-    js    : 'assets/js/**/*.js'
+    js    : 'assets/js/*.js'
 };
 
 // Connect task

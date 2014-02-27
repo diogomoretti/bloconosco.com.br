@@ -31,7 +31,7 @@ function didLoadInstagram(event, response) {
 $('.instagram').on('didLoadInstagram', didLoadInstagram);
 
 $('.instagram').instagram({
-    hash: 'love',
+    hash: 'imarui',
     count: 20,
     clientId: 'f21ae0f72aec4d1a8ad74045e6fb7a8f'
 });
